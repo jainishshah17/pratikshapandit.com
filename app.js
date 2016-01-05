@@ -6,7 +6,7 @@ angular.module('myApp', [
   'myApp.home',
   'myApp.contact',
   'myApp.about',
-  'myApp.projects',
+  'myApp.performances',
   'myApp.demo'
 ]).
 config(['$routeProvider', function($routeProvider) {
