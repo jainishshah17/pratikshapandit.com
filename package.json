@@ -1,9 +1,9 @@
 {
-  "name": "jainishshah.com",
+  "name": "pratikshapandit.com",
   "private": true,
   "version": "1.0.0",
   "description": "Portfolio website",
-  "repository": "https://github.com/jainishshah17/jainishshah.com.git",
+  "repository": "https://github.com/jainishshah17/pratikshapandit.com.git",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",
