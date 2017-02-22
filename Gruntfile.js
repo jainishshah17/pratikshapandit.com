@@ -8,7 +8,13 @@ module.exports = function(grunt) {
             build_war: {
                 command: [
                     'jar -cvf ROOT.war *',
-                ].join('&&')
+                ].join('&&'),
+                options: {
+                    execOptions: {
+                        maxBuffer: Infinity
+                    }
+                }
+
             },
             build_docker: {
                 command: [
