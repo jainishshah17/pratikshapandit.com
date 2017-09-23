@@ -19,7 +19,7 @@ module.exports = function(grunt) {
             build_docker: {
                 command: [
                     'docker build --tag="jainishshah17/pratikshashah" .'
-                ],
+                ].join('&&'),
                 options: {
                     execOptions: {
                         maxBuffer: Infinity
