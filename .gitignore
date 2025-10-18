@@ -1,8 +1,27 @@
-logs/*
-!.gitkeep
+# Dependencies
 node_modules/
 bower_components/
-tmp
+
+# OS Files
 .DS_Store
-.idea
-ROOT.war
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build output (if any)
+dist/
+build/
+
+# Temporary files
+.tmp/
+temp/

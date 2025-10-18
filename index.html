@@ -1,74 +1,239 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pratiksha Pandit</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-  <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
-  <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="assets/stylesheets/footer.css">
-  <link rel="stylesheet" href="assets/stylesheets/about.css">
-  <link rel="stylesheet" href="assets/stylesheets/button.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="icon" type="image/gif" href="public/images/logo.jpg">
-  <link rel="shortcut icon" href="public/images/logo.jpg">
-  <link href="//vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-  <script src="//vjs.zencdn.net/4.12/video.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
-  <script type="text/javascript" src="http://www.chartjs.org/assets/Chart.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pratiksha Pandit - Geologist & Choreographer Portfolio">
+    <meta name="author" content="Pratiksha Pandit">
+    <title>Pratiksha Pandit | Geologist & Choreographer</title>
+    <link rel="icon" type="image/jpeg" href="public/images/logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Pratiksha Pandit</div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#performances" class="nav-link">Performances</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<nav>
-  <ul class="menu">
-    <li><a href="#/home" class="ghost-button">Home</a></li>
-    <li><a href="#/performances" class="ghost-button">Performances</a></li>
-    <li><a href="#/contact" class="ghost-button">Contact</a></li>
-    <li><a href="#/about" class="ghost-button">About Me</a></li>
-  </ul>
-</nav>
-<section>
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-</section>
-  <div ng-view></div>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="assets/images/my.jpg" alt="Pratiksha Pandit" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1 class="fade-in">Pratiksha Pandit</h1>
+                <p class="subtitle fade-in">Geologist & Choreographer</p>
+                <p class="description fade-in">
+                    My name is Pratiksha Pandit. I'm a Geologist & Choreographer.
+                    My education has provided me with a variety of information systems knowledge and practical skills; 
+                    primarily in the field of geology. I have Diploma Degrees in Kathak & Bharatnatyam.
+                </p>
+                <p class="description fade-in">
+                    My work experience as a Dance Instructor at Kendriya Vidhyalaya, Vadodara, India provided me 
+                    with good command over teaching dance to students of different age groups from beginner level 
+                    to expert level. I have experience in teaching dance forms like Kathak, Bharatnatyam, 
+                    Bollywood and Freestyle.
+                </p>
+                <div class="hero-buttons fade-in">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="assets/documents/PratikshaPandit.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
 
-<footer id="footer">
-  <div>
-  <ul class="soc">
-    <li><a class="soc-facebook" href="https://www.facebook.com/jainish.shah.3979" target="_blank"></a></li>
-    <li><a class="soc-pinterest" href="https://www.pinterest.com/panditpratiksha/" target="_blank"></a></li>
-    <li><a class="soc-linkedin" href="https://www.linkedin.com/in/pratiksha-pandit-6386bb53" target="_blank"></a></li>
-    <li><a class="soc-youtube" href="https://www.youtube.com/channel/UCAloVYHTNxkyfbi4oUIYDvQ" target="_blank"></a></li>
-  </ul>
-  </div>
-  <div>
-    Designed By: Jainish Shah
-  </div>
-</footer>
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-  -->
-  <script src="bower_components/angular/angular.js"></script>
-  <script src="bower_components/angular-route/angular-route.js"></script>
-  <script src="app.js"></script>
-  <script src="assets/javascripts/crontollers/home.js"></script>
-  <script src="assets/javascripts/crontollers/contact.js"></script>
-  <script src="assets/javascripts/crontollers/about.js"></script>
-  <script src="assets/javascripts/crontollers/performances.js"></script>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <!-- Education -->
+            <div class="about-content">
+                <div class="education">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="education-grid">
+                        <div class="education-item">
+                            <h4>Master of Science (M.Sc.)</h4>
+                            <p class="degree">Environmental Geosciences</p>
+                            <p class="institution">California State University, East Bay, Hayward, California, USA</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Master of Science (M.Sc.)</h4>
+                            <p class="degree">Petroleum Geology</p>
+                            <p class="institution">The Maharaja Sayajirao University of Baroda, Gujarat, India</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Bachelor of Science (B.Sc.)</h4>
+                            <p class="degree">Geology/Earth Science</p>
+                            <p class="institution">The Maharaja Sayajirao University of Baroda, Gujarat, India</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Diploma</h4>
+                            <p class="degree">Kathak</p>
+                            <p class="institution">The Maharaja Sayajirao University of Baroda, Gujarat, India</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Diploma</h4>
+                            <p class="degree">Bharatanatyam</p>
+                            <p class="institution">The Maharaja Sayajirao University of Baroda, Gujarat, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="experience">
+                    <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                    <div class="experience-item">
+                        <h4>Dance Instructor</h4>
+                        <p class="company">Kendriya Vidhyalaya, Vadodara, India</p>
+                        <ul class="responsibilities">
+                            <li>Training and developing pupils in dance</li>
+                            <li>Planning and delivering dance lessons</li>
+                            <li>Choreographing full routines to a high standard for beginners right through to advanced students</li>
+                            <li>Delivering enjoyable, structured and well-planned dance activities</li>
+                            <li>Explaining and demonstrating dance techniques and methods</li>
+                            <li>Teaching the history of dance</li>
+                            <li>Choreographing and directing dance performances</li>
+                            <li>Controlling groups of pupils and when required disciplining them</li>
+                            <li>Teaching dance as a form of recreation</li>
+                            <li>Showing pupils how to rehearse and exercise</li>
+                            <li>Monitoring pupils' progress</li>
+                            <li>Performing numerous dance routines throughout the day</li>
+                            <li>Abiding by all local regulations as well as safety protocols</li>
+                            <li>Building relationships with pupils</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performances Section -->
+    <section id="performances" class="performances">
+        <div class="container">
+            <h2 class="section-title">Performances</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/bBCxAU5EQSI" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/zPdAiDHxPqE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/GvY1PmWTC7Y" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/jy9NMnRkuBQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/Cjng4SuLF7I" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/IyFCsRI2xFY" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/3nF9phdqYps" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/xyfRQJk0BYU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/2y9TlY0kfT8" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/lPXsEGE2w9o" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/eNUcK82Whn0" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/6eGUz05zzYU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/YNNz934NnzU" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/Wv6CdPGggg4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about dance and geology!</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/jainish.shah.3979" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.pinterest.com/panditpratiksha/" target="_blank" aria-label="Pinterest">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pratiksha-pandit-6386bb53" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCAloVYHTNxkyfbi4oUIYDvQ" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div id="form-message" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Pratiksha Pandit. All rights reserved.</p>
+            <p class="designer-credit">Designed by Jainish Shah</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
