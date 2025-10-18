@@ -151,7 +151,7 @@ MIT License - see the [LICENSE](LICENSE) file for details.
 
 - **LinkedIn**: [Pratiksha Pandit](https://www.linkedin.com/in/pratiksha-pandit-6386bb53)
 - **YouTube**: [Dance Performances](https://www.youtube.com/channel/UCAloVYHTNxkyfbi4oUIYDvQ)
-- **Facebook**: [Profile](https://www.facebook.com/jainish.shah.3979)
+- **Facebook**: [Profile](https://www.facebook.com/profile.php?id=100075577804557)
 - **Pinterest**: [Portfolio](https://www.pinterest.com/panditpratiksha/)
 
 ---
